@@ -1,14 +1,14 @@
-- name: techbase
-  display_name: Techbase
-  description: Techbase
+- name: hub-draft-issues
+  display_name: Hub Draft Issues
+  description: Hub Draft Issues
   category: webapp
   logo_url: https://raw.githubusercontent.com/nearform/techbase/master/public/images/TechBaseSymbol.svg?token=GHSAT0AAAAAAB6G54NVKR3CHXZEUZNMJWAWZATGUIA
   devstats_url: https://aerakimesh.devstats.cncf.io/
   accepted_at: "2022-06-14"
   maturity: sandbox
   repositories:
-    - name: techbase
-      url: https://github.com/nearform/techbase
+    - name: hub-draft-issues
+      url: https://github.com/nearform/hub-draft-issues
       check_sets:
         - community
         - code
