@@ -132,12 +132,12 @@ async fn track_repository(
     // Process only if the repository has changed since the last time it
     // was tracked or if it hasn't been tracked in more than 1 day
     let remote_digest = git.remote_digest(&repository.url).await?;
-    if let Some(digest) = &repository.digest {
-        let one_day_ago = OffsetDateTime::now_utc() - time::Duration::days(1);
-        if &remote_digest == digest && repository.updated_at > one_day_ago {
-            return Ok(());
-        }
-    }
+    // if let Some(digest) = &repository.digest {
+    //     let one_day_ago = OffsetDateTime::now_utc() - time::Duration::days(1);
+    //     if &remote_digest == digest && repository.updated_at > one_day_ago {
+    //         return Ok(());
+    //     }
+    // }
 
     debug!("started");
 

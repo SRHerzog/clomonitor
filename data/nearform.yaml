@@ -7,8 +7,8 @@
   accepted_at: "2022-06-14"
   maturity: sandbox
   repositories:
-    - name: hub-draft-issues
-      url: git@github.com:nearform/hub-draft-issues.git
+    - name: unbreakci
+      url: https://github.com/nearform/unbreakci
       check_sets:
         - community
         - code

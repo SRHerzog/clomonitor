@@ -47,10 +47,7 @@ export const FILTERS: FiltersSection[] = [
   {
     name: FilterKind.Foundation,
     title: 'Foundation',
-    filters: [
-      { name: Foundation.cncf, label: 'CNCF' },
-      { name: Foundation.lfaidata, label: 'LF AI & Data' },
-    ],
+    filters: [{ name: 'nearform', label: 'NearForm' }],
   },
   {
     name: FilterKind.Maturity,
